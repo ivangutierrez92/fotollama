@@ -23,7 +23,7 @@ const Footer = ({ tabIndex }) => {
               rel="noreferrer"
               tabIndex={tabIndex}
             >
-              <FontAwesomeIcon icon={faGithub} className="fa-2x" width='32' />
+              <FontAwesomeIcon icon={faGithub} className="fa-2x" width="32" />
             </a>
             <a
               href="https://www.linkedin.com/in/ivan-gutierrez-castro/"
@@ -31,7 +31,7 @@ const Footer = ({ tabIndex }) => {
               rel="noreferrer"
               tabIndex={tabIndex}
             >
-              <FontAwesomeIcon icon={faLinkedin} className="fa-2x" width='32' />
+              <FontAwesomeIcon icon={faLinkedin} className="fa-2x" width="32" />
             </a>
           </div>
         </div>

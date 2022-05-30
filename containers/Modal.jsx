@@ -18,15 +18,7 @@ const variants = {
   },
 };
 
-const Modal = ({
-  children,
-  onClose,
-  onPrev,
-  onNext,
-  onKeyDown,
-  focusref,
-  animationKey,
-}) => {
+const Modal = ({ children, onClose, onPrev, onNext, onKeyDown, focusref, animationKey }) => {
   return (
     <div className={styles.Modal} onKeyDown={onKeyDown} tabIndex="0" ref={focusref}>
       <button className={`${styles.close} ${styles.button}`} onClick={onClose}>
