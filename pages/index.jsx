@@ -10,13 +10,13 @@ export default function Home() {
         <meta name="description" content="Portafolio de fotografías" />
         <meta property="og:title" content="Fotografías Llama" />
         <meta property="og:description" content="Portafolio de fotografías de Iván Gutiérrez" />
-        <meta property="og:image" content="/social-logo.png" />
+        <meta property="og:image" content="fotollama/social-logo.png" />
         <meta property="twitter:title" content="Fotografías Llama" />
         <meta
           property="twitter:description"
           content="Portafolio de fotografías de Iván Gutiérrez"
         />
-        <meta property="twitter:image" content="/social-logo.png" />
+        <meta property="twitter:image" content="fotollama/social-logo.png" />
         <meta property="twitter:image:alt" content="Fotografía polaroid del logo de una llama" />
       </Head>
       <main className={styles.Main}>
