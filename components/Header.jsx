@@ -22,12 +22,16 @@ const Header = ({ tabIndex }) => {
   return (
     <header className={styles.Header}>
       <Link href="/">
-        <a className={styles.MainLink}>
+        <a className={styles.MainLink} tabIndex={tabIndex}>
           <h1 className={styles['Header__title']}>Iván Gutiérrez</h1>
           <h2 className={styles['Header__subTitle']}>Fotógrafo</h2>
         </a>
       </Link>
-      <button className={styles.ToggleButton} onClick={() => setToggle(state => !state)}>
+      <button
+        className={styles.ToggleButton}
+        onClick={() => setToggle(state => !state)}
+        tabIndex={tabIndex}
+      >
         MENÚ
       </button>
       <motion.nav
