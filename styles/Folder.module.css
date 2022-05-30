@@ -1,0 +1,17 @@
+.Folder {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 50px 30px 100px 30px;
+  row-gap: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+@media only screen and (min-width: 800px) {
+  .Folder {
+    grid-template-columns: repeat(auto-fill, 450px);
+    column-gap: 50px;
+  }
+}

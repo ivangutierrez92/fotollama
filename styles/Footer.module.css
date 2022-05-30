@@ -1,0 +1,35 @@
+.Footer {
+  padding: 20px 50px 30px 50px;
+  background-color: rgb(245, 241, 241);
+  flex-shrink: 0;
+}
+
+.marketing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto,
+.social {
+  margin: 0 auto auto auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  .marketing {
+    flex-direction: column;
+  }
+  .social {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .Footer {
+    padding: 20px 10px 30px 10px;
+  }
+}

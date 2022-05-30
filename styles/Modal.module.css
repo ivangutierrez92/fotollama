@@ -1,0 +1,55 @@
+.Modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  outline: none;
+}
+
+.button {
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  z-index: 3;
+  background-color: transparent;
+  border: none;
+}
+
+.sideButton {
+  height: 100%;
+  width: 50px;
+  font-size: 40px;
+}
+
+.sideButton:hover,
+.sideButton:focus-visible {
+  background-color: rgb(150, 150, 150, 30%);
+  outline: none;
+}
+
+.close {
+  top: 30px;
+  left: 60px;
+  font-size: 30px;
+}
+
+.prev {
+  top: 0;
+  left: 0;
+}
+
+.next {
+  top: 0;
+  right: 0;
+}
+
+.SliderContainer {
+  position: relative;
+}
+
+.Slider {
+  position: absolute;
+}
