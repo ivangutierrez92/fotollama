@@ -92,13 +92,13 @@ const Folder = ({ folder, images }) => {
           property="og:description"
           content={`Portafolio de fotografías de Iván Gutiérrez, carpeta ${folderName}`}
         />
-        <meta property="og:image" content="/social-logo.png" />
+        <meta property="og:image" content="social-logo.png" />
         <meta property="twitter:title" content={folderName} />
         <meta
           property="twitter:description"
           content={`Portafolio de fotografías de Iván Gutiérrez, carpeta ${folderName}`}
         />
-        <meta property="twitter:image" content="/social-logo.png" />
+        <meta property="twitter:image" content="social-logo.png" />
         <meta property="twitter:image:alt" content="Fotografía polaroid del logo de una llama" />
       </Head>
       <Header tabIndex={modal ? -1 : undefined} />
