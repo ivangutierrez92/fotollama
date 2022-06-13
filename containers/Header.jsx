@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from '../styles/Header.module.css';
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
-import NavigationLinks from '../containers/NavigationLinks';
+import Navigation from '../components/Navigation';
 import Link from 'next/link';
 
 const Header = ({ tabIndex }) => {
@@ -54,7 +54,7 @@ const Header = ({ tabIndex }) => {
               : { duration: 0 }
           }
         >
-          <NavigationLinks tabIndex={tabIndex} styles={styles} />
+          <Navigation tabIndex={tabIndex} styles={styles} />
         </motion.div>
       </motion.nav>
     </header>

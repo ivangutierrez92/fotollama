@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import NavigationLinks from '../containers/NavigationLinks';
+import Navigation from '../components/Navigation';
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
           <header className={styles.Header}>
             <h1 className={styles['Header__title']}>Iván Gutiérrez</h1>
             <nav className={styles['Header__nav']}>
-              <NavigationLinks styles={styles} />
+              <Navigation styles={styles} />
             </nav>
           </header>
         </div>

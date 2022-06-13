@@ -3,7 +3,7 @@ import Polaroid from '../components/Polaroid';
 import styles from '../styles/Folder.module.css';
 import folders from '../utils/images';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Header from '../containers/Header';
 import Modal from '../containers/Modal';
 import Photography from '../components/Photography';
 import Head from 'next/head';
