@@ -3,7 +3,7 @@ import React from 'react';
 import folders from '../utils/folders';
 import Link from 'next/link';
 
-const NavigationLinks = ({ tabIndex = undefined, styles }) => {
+const Navigation = ({ tabIndex = undefined, styles }) => {
   const router = useRouter();
   return (
     <>
@@ -23,4 +23,4 @@ const NavigationLinks = ({ tabIndex = undefined, styles }) => {
   );
 };
 
-export default NavigationLinks;
+export default Navigation;
