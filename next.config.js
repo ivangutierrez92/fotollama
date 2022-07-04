@@ -6,8 +6,8 @@ const nextConfig = {
     path: '',
   },
   productionBrowserSourceMaps: true,
-  assetPrefix: '/fotollama/',
-  basePath: '/fotollama',
+  assetPrefix: '/fotollama-next/',
+  basePath: '/fotollama-next',
 };
 
 module.exports = nextConfig;
