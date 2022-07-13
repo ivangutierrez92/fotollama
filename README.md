@@ -6,12 +6,12 @@ Portafolio personal, que cuenta con una página principal, y cuatro páginas de 
 
 ## Links
 
-- URL del sition: [Fotollama](https://llamafluida.github.io/fotollama)
+- URL del sition: [Fotollama](https://llamafluida.github.io/fotollama-next)
 
 ## Construido con
 
 - HTML5
-- Propiedades personalizadas de CSS
+- CSS Modules
 - Flexbox
 - CSS Grid
 - [React](https://reactjs.org/)
