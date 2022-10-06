@@ -18,7 +18,7 @@ const Footer = ({ tabIndex }) => {
           <h2>Encuentrame también en:</h2>
           <div className={styles['social-icons']}>
             <a
-              href="https://github.com/llamafluida"
+              href="https://github.com/ivangutierrez92"
               target="_blank"
               rel="noreferrer"
               tabIndex={tabIndex}
